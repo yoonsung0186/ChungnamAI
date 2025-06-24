@@ -115,3 +115,66 @@ GitHub에서는 `README.md` 파일을 통해 마크다운을 많이 사용합니
 2. 파이썬 코드 입력 
 3. **실행** 하면 결과가 아래에 나옴
 
+## 2. About Python3
+- [Python basic](./docs/python3.md)
+- https://www.w3schools.com/
+
+## Python에서 주의해야 할 점들
+### 문법 관련 주의사항
+#### 들여쓰기 (Indentation)
+- Python은 들여쓰기로 코드 블록을 구분합니다
+- 탭과 스페이스를 섞어 쓰면 안 됩니다
+- 일관성 있게 스페이스 4개 또는 탭 사용
+
+| #잘못된 예   | #올바른 예  | 
+| --------- | --------------------------- |
+| if True: print("Hello")  # 들여쓰기 없음 - 에러! | if True: 1234 print("Hello")  # 스페이스 4개, 4칸띄기기| 
+
+
+
+---
+
+## 3.  data structure / data sciencs
+
+- [데이터 구조 개요](./data_structures.md)
+- [Pandas](./pandas.md)
+- [Numpy](./numpy.md)
+- [Matplotlib](./Matplotlib.md)
+
+## 4. Machine Learning
+
+- [Machine Learning Basic](./ml_basic.md)
+- [모델 훈련 및 평가](./ml_test.md)
+
+## 5. OpenCV
+
+- [OpenCV Basic](./OpenCV_basic.md)
+- [이미지 처리](./image_test.md)
+
+  
+## 6. CNN(Convolution Neural Network
+- [CNN_Basic](./CNN_basic.md)
+- [CNN_자율주행 관련 코드](./cnn_test.md)
+
+## 7. Ultralytics
+- [Ultralytics_Basic](./Ultralytics_basic.md)
+- [YOLOv8](./YOLOv8_test.md)
+- [YOLOv12](./YOLOv12_test.md)
+  
+## 8. TensorRT vs PyTorch 
+- [PyTorch_Basic](./PyTorch_basic.md)
+- [TensorRT](./TensorRT_test.md)
+- [YOLOv12](./YOLOv12_test.md)
+
+## 9. TAO Toolkit on RunPod
+- [TAO_사용법](.TAO_install.md)
+- [TAO_Toolkit](.TAO_Toolkit.md)
+
+## 10. 칼만필터, CARLA, 경로 알고리즘
+- [kalman](.kalman.md)
+- [CARLA_simulator](.CARLA.md)
+
+## 11. ADAS & (ADAS TensorRT vs PyTorch)
+- [adas_basic](.adas_basic.md)
+- [TensorRT vs PyTorch 비교](.vs.md)
+- 
